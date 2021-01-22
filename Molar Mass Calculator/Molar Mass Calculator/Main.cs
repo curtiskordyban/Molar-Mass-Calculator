@@ -2,6 +2,7 @@
 ///
 /// Molecular Weight Calculator 
 /// Curtis J Kordyban
+/// Christofer Tavano
 /// Created: October 2, 2020
 /// 
 /// Periodic Table from : https://ptable.com/?lang=en#Properties
@@ -13,7 +14,17 @@
 ///         -Added text file resource for elements 
 ///         
 ///  *Support Class* - Element.cs 
-///
+///  
+/// Updates: 
+///         -Curtis  : Built user interface
+///         -Chris   : Found and added periodic table as textfile into resources
+///         -Mutually: Worked out getting data from textfile into something we can work with
+///         -Chris   : Wrote sorting LINQ statements and wired to button events
+///         -Chris   : Wrote Element Class
+///         -Curtis  : Wrote regular expression textbox change event
+///         -Curtis  : Moved sorting LINQ statements into single event and wrote switch statement +
+///                    Gridview cell formatting event 
+///         
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 using System;
